@@ -8,16 +8,17 @@ echo THAT IS HOW YOU END UP WITH A BSOD LOOP AND HAVE TO RESET YOUR ENTIRE COMPU
 echo Now with that out of the way 
 echo hit Enter to continue
 pause>nul 
-start 1 - Mouse Optimization.reg
-start 1 - keyboard Optimization.reg
-start 100%.reg
-start BatchOptimizations.bat
-start FPS-Optimization.reg
-start Fortnite-GameUserSettings.bat
-start Internet-Tweaks.reg
-start Power-Plan.bat
-start System Restore Point.lnk
-start XanderBaatzTweaks.reg
+CD %root% 
+start "1 - Mouse Optimization.reg"
+start "1 - keyboard Optimization.reg"
+start "100%.reg"
+start "BatchOptimizations.bat"
+start "FPS-Optimization.reg"
+start "Fortnite-GameUserSettings.bat"
+start "Internet-Tweaks.reg"
+start "Power-Plan.bat"
+start "System Restore Point.lnk'
+start "XanderBaatzTweaks.reg"
 echo if anything didn't run correctly
 echo I.E the Registry tweaks most likely,
 echo then Run them manually but everything in theory should work here but im tired and just finishing this up. 
